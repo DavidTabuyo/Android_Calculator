@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/temporal_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="10dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="#77000000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="10dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="60sp" />
+
+    <include
+        layout="@layout/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="722dp" />
+
+</LinearLayout>
